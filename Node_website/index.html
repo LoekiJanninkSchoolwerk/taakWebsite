@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,200;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,200;1,700&family=Nunito+Sans&display=swap" rel="stylesheet">    
+<link href="./style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="class" class="addedTask" >
+<div>
+<h2 class="hh1">Fill in your own task!</h2>
+<hr>
+<h2>Add here what task you have to do</h2>
+
+</div>
+
+<div>
+    <form action="">
+        <input id="addTask" class="fillTask" type="text" placeholder="Your task name..">
+    <button id="sub" onclick="task()"  class="submitBtn">Submit</button>
+
+    </form>
+        
+   <hr>
+</div>
+
+
+
+</div>
+
+
+</div>
+
+<div>
+    
+    <form id="editForm" class="editForm">
+        <div class="designForm"> 
+            <h1 class="h1form">Edit here your task</h1>
+        <input id="editInput" class="editIn" type="text" placeholder="Edit your task...">
+        <button class="form2Btn"  id="editBtn" >Edit</button>
+        
+    </div>
+    </form>
+</div>
+
+
+
+
+
+
+<div onclick="clicktext()"  id="click-to-see-history">
+ 
+    <h1 class="h1Finsihedtaskbtn">Click here to see the finished tasks</h1>
+    <i id="iconlow" class="bi bi-chevron-compact-down"></i>
+
+</div>
+
+
+<div id="historyDiv" class="History">
+    <i class="bi bi-check-lg"></i>
+<h1 class="hisH1">Finished tasks</h1>
+<hr>
+</div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

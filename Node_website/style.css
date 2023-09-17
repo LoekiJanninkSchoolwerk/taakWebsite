@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 	0;
+    
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+body{
+    /* background-color:rgb(208, 137, 137); */
+    /* background-image: url(https://images.pexels.com/photos/2850287/pexels-photo-2850287.jpeg?auto=compress&cs=tinysrgb&w=1600); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    z-index: 0px;
+
+    
+    
+}
+
+.addedTask{
+    
+    width: 100%; 
+     background-color: rgb(255, 255, 255);
+  
+    max-width: 100%; 
+    max-height: 50%;
+
+    position: relative;
+    overflow-y: scroll;
+    
+
+}
+
+.hh1{
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+ 
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+form{
+    text-align: center;
+    padding-bottom: 20px;
+    
+
+}
+.submitBtn{
+    background-color: black;
+    color:rgb(231, 241, 240);;
+    border: none;
+    padding: 5px;
+}
+
+.submitBtn:hover{
+    background-color: rgb(186, 215, 213);
+    color: black;
+}
+
+.Styleh1{
+
+/* color: rgb(233, 238, 243); */
+margin-left: 50px;
+word-break: break-all;
+font-size: 18px;
+margin-right: 40px;
+width: 75%;
+
+
+
+}
+
+.styleBtn{
+    background-color: rgb(18, 18, 18);
+    border: none;
+    max-width: 70px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(231, 241, 240);
+    
+  
+   
+}
+
+.styleBtn:hover{
+    background-color: rgb(186, 215, 213);
+    color: black;
+}
+
+.bi-check-circle-fill{
+margin-left:10px ;
+}
+.bigDivDesign{
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    margin-top: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+    
+}
+.editForm{
+    display: none;
+}
+
+.editedForm{
+    display: inline-block;
+ position: fixed;
+ left: 0;
+ right: 0;
+ top: 320px;
+ margin: auto;
+
+    
+    
+}
+
+
+
+
+.designForm{
+    background-color: rgb(9, 9, 9);
+    height: 150px;
+    width: 100%;
+    z-index: 3;
+    color:rgb(186, 215, 213);
+
+ 
+  
+}
+.h1form{
+    text-align: center;
+   padding-top: 20px;
+}
+
+
+
+
+
+.form2Btn{
+    width:90px ;
+    height: 35px;
+  
+    background-color:  rgb(186, 215, 213);
+   margin-top: 10px;
+
+}
+.form2Btn:hover{
+    background-color: rgb(158, 158, 158);
+    
+}
+
+
+.editIn{
+    width: 400px ;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.h1Finsihedtaskbtn{
+    color: black;
+text-align: center;
+font-size: 25px;
+margin-top: 50px;
+
+}
+.bi-chevron-compact-down{
+    color: black;
+   display: flex;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.History{
+   display: none;
+    background-color:white;
+    width: 100%;
+    height: 300px;
+   overflow-y: scroll;
+    margin-top: 20px;
+  
+}
+.y{
+   display: block;
+ /* background-color: red; */
+}
+.iconn{
+    transform: rotate(180deg);
+}
+
+
+.bi-chevron-compact-up{
+display: none;
+}
+
+
+
+
+
+.historyH1{
+
+font-family: 'Nunito Sans', sans-serif;
+font-size: 18px;
+word-break: break-all;
+display: flex;
+}
+.bi-check-lg{
+margin-left: 25%;
+height: 40px;
+width: 40px;
+
+}
+.hisH1{
+
+    padding-top: 30px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+   
+}
+.bi-x-lg{
+    /* background-color: rgb(18, 18, 18); */
+    display: flex;
+    width: 16px;
+    height: 16px;
+    margin-right: 20px;
+  
+ 
+    color: rgb(0, 0, 0);
+
+}
+.bigDivDesign2{
+   background-color: rgb(255, 255, 255);
+   display: flex;
+    margin-top: 5px;
+  
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+  
+   
+}
+.historyH1{
+
+    margin-left: 50px;
+    word-break: break-all;
+    font-size: 18px;
+    margin-right: 40px;
+    width: 75%;
+    color: rgb(0, 0, 0);
+
+  
+    
+    }
+/* .showHistory{
+display: inline-block;
+} */
+@media screen and (min-width: 768px) {
+    
+    body {
+        background-image: url(https://images.pexels.com/photos/3723726/pexels-photo-3723726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);  
+        backdrop-filter: blur(5px);
+        height: 100vh;
+        padding-top: 100px;
+    }
+
+    .addedTask{
+    width: 60%;
+    
+    margin-left: 20%;
+    max-height:400px;
+    overflow-y: scroll;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    }
+
+    .fillTask{
+        height: 40px;
+        width: 400px;
+    }
+    .submitBtn{
+        height: 40px;
+        width: 60px;
+    }
+
+
+.designForm{
+   background-color: rgb(9, 9, 9);
+   height: 300px;
+   width: 100%;
+   z-index: 3;
+   color:rgb(186, 215, 213); 
+}
+.editIn{
+    width: 400px ;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+}
+.form2Btn{
+    width:90px ;
+    height: 65px;
+    margin-left: 10px;
+   
+ 
+
+}
+.h1Finsihedtaskbtn{
+    color: white;
+    text-align: center;
+
+margin-top: 20px;
+}
+
+.bi-chevron-compact-down{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.History{
+    display: none;
+     background-color:white;
+     width: 60%;
+     margin-left: 20%;
+     height: 230px;
+    overflow-y: scroll;
+     margin-top: 20px;
+   
+ }
+ .y{
+    display: block;
+  /* background-color: red; */
+ }
+ .iconn{
+     transform: rotate(180deg);
+ }
+ 
+ 
+ .bi-chevron-compact-up{
+ display: none;
+ }
+ 
+ 
+ 
+ 
+ 
+ .historyH1{
+ 
+ font-family: 'Nunito Sans', sans-serif;
+ font-size: 18px;
+ word-break: break-all;
+ display: flex;
+ }
+ .bi-check-lg{
+ margin-left: 40%;
+ height: 40px;
+ width: 40px;
+ 
+ }
+ .hisH1{
+ 
+     padding-top: 30px;
+     display: inline-block;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 25px;
+     margin-bottom: 10px;
+    
+ }
+ .bi-x-lg{
+     /* background-color: rgb(18, 18, 18); */
+     display: flex;
+     width: 16px;
+     height: 16px;
+     margin-right: 20px;
+   
+  
+     color: rgb(0, 0, 0);
+ 
+ }
+ .bigDivDesign2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+     margin-top: 5px;
+   
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 10px;
+     
+   
+    
+ }
+ .historyH1{
+ 
+     margin-left: 50px;
+     word-break: break-all;
+     font-size: 18px;
+     margin-right: 40px;
+     width: 75%;
+     color: rgb(0, 0, 0);
+ 
+ } 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
